@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #efe;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  padding: 10px;
+  background-color: rgb(204, 204, 204);
+  text-align: center;
+}
+nav {
+  padding: 15px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 0;
+}
+a {
+  color: white;
+  font-size: 15px;
+  padding: 10px;
+  margin-bottom: 100px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+a:hover {
+  font-size: 17px;
+  text-decoration: none;
+}
+#facebook {
+  background: url(https://img.icons8.com/ios/32/000000/facebook--v1.png)
+    no-repeat left center;
+  padding-left: 35px;
+}
+#twitter {
+  background: url(https://img.icons8.com/ios/32/000000/twitter--v1.png)
+    no-repeat left center;
+  padding-left: 35px;
+}
+#instagram {
+  background: url(https://img.icons8.com/ios/32/000000/instagram-new--v1.png)
+    no-repeat left center;
+  padding-left: 35px;
+}
+#youtube {
+  background: url(https://img.icons8.com/ios/32/000000/youtube--v1.png)
+    no-repeat left center;
+  padding-left: 35px;
+}
+#spotify {
+  background: url(https://img.icons8.com/ios/32/000000/spotify--v1.png)
+    no-repeat left center;
+  padding-left: 35px;
+}
+#appleMusic {
+  background: url(https://img.icons8.com/ios/32/000000/mac-os--v1.png) no-repeat
+    left center;
+  padding-left: 35px;
+}
+#deezer {
+  background: url(https://img.icons8.com/ios/50/000000/deezer.png) no-repeat
+    left center;
+  padding-left: 50px;
+}
+.main {
+  justify-content: center;
+  background-color: rgb(156, 154, 154);
+  height: auto;
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+}
+.wrapper {
+  display: grid;
+  margin-top: 30px;
+  justify-self: center;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(300px, auto);
+  justify-content: space-around;
+}
+.albums {
+  text-align: center;
+  grid-column-gap: 10px;
+}
+/* Escaling content */
+.albums:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/*End escaling content*/
+.album:hover img {
+  -webkit-transform: scale(0.25);
+  -moz-transform: scale(0.25);
+  -ms-transform: scale(0.25);
+  -o-transform: scale(0.25);
+  transform: scale(0.25);
+}
+
+p {
+  padding: 15px;
+  text-align: justify;
+}
+
+footer{
+  background-color: gray;
+  width: 100%;
+  height: auto;
+  padding: 15px;
+}
+#final {
+  text-align: center;
+}

@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Settting up the nav bar */
+
+.container {
+  display: flex;
+  width: 100%;
+}
+.wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  padding: 1.2em;
+}
+a {
+  text-decoration: none;
+  color: #212121;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+a:hover {
+  text-decoration: underline;
+}
+div img {
+  width: 100%;
+  height: 18px;
+}
+.dots,
+.link {
+  display: inline-flex;
+  margin-right: 15px;
+}
+#profile {
+  border-radius: 50%;
+}
+
+/* Settings for logo IMG */
+
+.logoContainer > div {
+  display: flex;
+  justify-content: center;
+}
+.logoContainer div img {
+  width: 20%;
+  height: auto;
+}
+.top {
+  display: flex;
+  justify-content: center;
+}
+.items div img {
+  justify-content: center;
+}
+.middle div {
+  display: inline-flex;
+}
+
+/* Input for search */
+
+.boxes {
+  display: flex;
+  justify-content: center;
+}
+.containerBoxes {
+  display: flex;
+  border: solid 1px #DFE1E5;
+  align-items: center;
+  border-radius: 24px;
+  justify-content: center;
+  margin: 35px;
+  height: 50px;
+    
+
+}
+.containerBoxes:hover {
+  box-shadow: 0 2px 2px rgb(0 0 0 / 100%);
+  align-items: center;
+  align-content: center;
+}
+input {
+  width: 350px;
+  border: none;
+}
+input:focus {
+  border: none;
+  outline: none;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+.button {
+  padding: 10px 16px;
+  background-color: #f8f9fa;
+  margin: 11px 4px;
+  border: none;
+  width: 150px;
+}
+.button:hover {
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  background-color: #f8f8fa;
+  border: 1px solid #dadce0;
+  color: #202124;
+  border-radius: 4px;
+  user-select: none;
+}
+#google {
+  display: flex;
+  justify-content: center;
+  font-size: 13px;
+}
+#english {
+  color: #1a0dab;
+  font-size: 13px;
+}
+
+/* Footer and some stuff   */
+footer {
+  margin-top: 180px;
+}
+.footerContainer {
+  width: 100%;
+  padding: 15px;
+}
+.footerWrapper {
+  height: 35px;
+}
+.fbottom {
+  margin-top: 25px;
+  display: inline-flex;
+  width: 100%;
+  border-top: solid 1px #DADCE0;
+  padding: 15px;
+  font: 14px arial,sans-serif;
+}
+.space {
+  margin: 15px;
+}
+.ftop a,
+#left a,
+#right a {
+  color: #0000008a;
+}
+#left {
+  width: 50%;
+}
+#right {
+  display: flex;
+  width: 50%;
+  justify-content: flex-end;
+}
+#right a {
+  margin-left: 15px;
+}

@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  position: sticky;
+}
+.wrapper {
+  background-color: #ffffff;
+  width: 100%;
+  display:inline-flex;
+  justify-content: space-between;
+  position: sticky;
+}
+.left,
+.center,
+.right {
+  display: flex;
+  padding: 0.5em;
+}
+.box {
+  padding: 1em;
+  cursor: pointer;
+}
+.fab {
+  font-size: 1.5rem;
+  color: #e60023;
+}
+.button {
+  width: 100%;
+  background-color: #111;
+  border-radius: 24px;
+  color: white;
+  text-align: center;
+}
+#buttonId {
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: #000;
+
+}
+.finder {
+  height: 48px;
+  align-items: center;
+  border: none;
+  border-radius: 24px;
+  width: 50rem;
+  background-color: #EFEFEF;
+  padding-left: 15px;
+  font-size: 1rem;
+}
+.finder:focus {
+  border: none;
+  outline: none;
+  background-color: #e1e1e1;
+}
+.fa-bell,
+.fa-comment-dots,
+.fa-user-circle {
+  color: #767676;
+}
+#today:hover {
+  border-radius: 24px;
+  background-color: #e5e5e5;
+}
+#logo:hover,
+#notifications:hover,
+#message:hover,
+#profile-img:hover {
+  border-radius: 50%;
+  background-color: #e5e5e5;
+}
+.content {
+  background-color: blueviolet;
+  height: 100px;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.element {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  margin: 10px;
+  display: inline-block;
+}
+
+.grid {
+  /* width: 100%; */
+  margin: 20px auto;
+  columns: 5;
+  /* column-gap: 40px; */
+  padding: 0 50px ;
+}
+
+.grid .card-image {
+  width: 100%;
+  margin: 0 0 20px;
+  padding: 5px;
+  overflow: hidden;
+  break-inside: avoid;
+}
+
+.grid .card-image img {
+  max-width: 100%;
+  border-radius: 24px;
+}
+.save{
+  background-color: #E60023;
+  text-decoration: none;
+  border: none;
+  padding: 12px 16px;
+  border-radius: 24px;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 14px;
+  display: inline-flex;
+}
+.icons {
+position: relative;
+display: block;}
+
+.icon {
+  display: inline;
+}
