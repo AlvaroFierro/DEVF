@@ -60,7 +60,7 @@ Elimina datos del servidor
 
 ## Info adicional
 
-Hay API's de terceros, ejemplo>
+Hay API's de terceros, ejemplo:
 
 - Faceboook API: Te permite poder usar la integracion de FB dentro de una pagina web
 - YouTube API: Te permite poder reproducir videos de YouTube dentro de una pagina web
