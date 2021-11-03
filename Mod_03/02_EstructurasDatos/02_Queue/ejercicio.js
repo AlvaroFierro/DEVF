@@ -18,5 +18,9 @@ function dividirColores(cola) {
   const colaImpares = [];
 }
 
+for (let i = 0; i <= cola.length; i++) {
+  cola;
+}
+
 // se debe de hacer con filter
 console.log(cola);
