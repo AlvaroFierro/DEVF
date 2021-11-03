@@ -12,7 +12,7 @@ const reemplazar = (pila, nuevo, viejo) => {
 };
 console.log(reemplazar([3, 2, 3, 4, 6, 8, 1, 2, 5, 5], 7, 2));
 
-// Pseudocódigo
+// Pseudocódigo funcion reemplazar
 // Inicio reemplazar
 // Crear una funcion llamada reemplazar
 // Que reciba como parametro una pila de numeros y dos valores de tipo numeros (nuevo y viejo)
