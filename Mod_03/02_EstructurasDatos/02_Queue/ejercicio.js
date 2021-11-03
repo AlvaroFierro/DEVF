@@ -18,9 +18,13 @@ function dividirColores(cola) {
   const colaImpares = [];
 }
 
-for (let i = 0; i <= cola.length; i++) {
-  cola;
-}
+// Necesito
+// Un for
+// Un If para sacar por la posicion even and odd numbers
+// Una funcion para sacar los pares y los impares
+// Hacer uso de filter
+// Tal vez indexOf
+// Uso de push
 
 // se debe de hacer con filter
 console.log(cola);
