@@ -1,0 +1,19 @@
+{
+  "name": "rick-and-morty",
+  "version": "1.0.0",
+  "description": "Rick and morty peticion",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rick",
+    "request"
+  ],
+  "author": "Alvaro",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.88.2",
+    "save": "^2.4.0"
+  }
+}

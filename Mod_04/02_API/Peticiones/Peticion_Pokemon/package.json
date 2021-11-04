@@ -1,0 +1,17 @@
+{
+  "name": "peticion_pokemon",
+  "version": "1.0.0",
+  "description": "Traer los pokemonesd",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pokemon"
+  ],
+  "author": "Alvaro",
+  "license": "MIT",
+  "dependencies": {
+    "require": "^2.4.20"
+  }
+}
