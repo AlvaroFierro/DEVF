@@ -66,4 +66,6 @@ Hay API's de terceros, ejemplo:
 - YouTube API: Te permite poder reproducir videos de YouTube dentro de una pagina web
 - Twitter API: Te permite poder mostrar tweets dentro de una pagina web
 
+# Peticiones
+
 **[Volver al inicio](#contenidos)**
