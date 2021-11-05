@@ -2,7 +2,24 @@
 // // Cola original: [ amarillo, rosa, rojo, verde, azul, negro, morado, blanco]
 // // Cola 1: [ amarillo, rojo, azul, morado]
 // // Cola 2: [rosa, verde, negro, blanco]
-var cola = [
+
+function separar(cola = []) {
+  let cola1 = cola.filter((par, impar) => {
+    let a;
+    impar % 2 == 0 ? (a = par) : 0;
+    return a;
+  });
+
+  let cola2 = cola.filter((a, b) => {
+    let x;
+    b % 2 == 0 ? 0 : (x = a);
+    return x;
+  });
+
+  return [cola1, cola2];
+}
+
+const [primer, segunda] = separar([
   "amarillo",
   "rosa",
   "rojo",
@@ -11,26 +28,14 @@ var cola = [
   "negro",
   "morado",
   "blanco",
-];
+]);
+console.log("Primer cola:", primer, "\n", "Segunda cola:", segunda);
 
-function dividirColores(cola) {
-  var colaPares = cola.filter((indexPar, indexImpar) => {
-    let a = 0;
-    indexPar % 2 == 0 ? (a = indexImpar) : 0;
-    return a;
-  });
-
-  var colaImpares = cola.filter((indexPar, indexImpar) => {
-    indexPar % 2 != 0 ? 0 : a;
-    return a;
-  });
-}
-
-// Necesito
-// Un for
-// Un If para sacar por la posicion even and odd numbers
-// Una funcion para sacar los pares y los impares
-// Hacer uso de filter
-// se debe de hacer con filter
-console.log(`La cola 1`, colaPares);
-console.log(`La cola 2`, colaImpares);
+// Pseudocodigo
+// Entra un array vacio
+// Se filtra en el mismo, checndo el index si es par manda al arreglo par
+// Despues hace lo mismo con el index impar
+// Regresa las colas
+// Se invoca a la funcion entra el array
+// log de los arreglos
+// Fin
