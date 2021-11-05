@@ -14,8 +14,16 @@ var cola = [
 ];
 
 function dividirColores(cola) {
-  const colaPares = [];
-  const colaImpares = [];
+  var colaPares = cola.filter((indexPar, indexImpar) => {
+    let a = 0;
+    indexPar % 2 == 0 ? (a = indexImpar) : 0;
+    return a;
+  });
+
+  var colaImpares = cola.filter((indexPar, indexImpar) => {
+    indexPar % 2 != 0 ? 0 : a;
+    return a;
+  });
 }
 
 // Necesito
@@ -23,8 +31,6 @@ function dividirColores(cola) {
 // Un If para sacar por la posicion even and odd numbers
 // Una funcion para sacar los pares y los impares
 // Hacer uso de filter
-// Tal vez indexOf
-// Uso de push
-
 // se debe de hacer con filter
-console.log(cola);
+console.log(`La cola 1`, colaPares);
+console.log(`La cola 2`, colaImpares);
