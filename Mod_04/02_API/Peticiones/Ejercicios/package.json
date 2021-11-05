@@ -1,0 +1,18 @@
+{
+  "name": "ejercicios",
+  "version": "1.0.0",
+  "description": "Archivo con todos los ejercicios",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ejercicios",
+    "request"
+  ],
+  "author": "Alvaro",
+  "license": "MIT",
+  "dependencies": {
+    "require": "^2.4.20"
+  }
+}
