@@ -1,6 +1,6 @@
 module.exports = (app) => {
-  const series = require("../controllers/SerieController.js");
+  const series = require("../controllers/serieController");
 
-  //get route
+  // get route
   app.get("/series", series.findAll);
 };
