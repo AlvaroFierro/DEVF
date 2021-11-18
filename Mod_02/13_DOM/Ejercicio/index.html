@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF"
+      crossorigin="anonymous"
+    />
+
+    <title>Orden de Pizza</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Orden de Pizza</h2>
+      <p>Por favor responde este formulario, para saber tus preferencias</p>
+
+      <form>
+        <div class="mb-3">
+          <label for="nombreCliente" class="form-label">Nombre:</label>
+          <input type="text" class="form-control" id="nombreCliente" />
+        </div>
+        <div class="md-3">
+          <label for="direccionCliente" class="form-label">Direccion:</label>
+          <input type="text" class="form-control" id="direccionCliente" />
+        </div>
+        <div class="md-3">
+          <label for="telefonoCliente" class="form-label">Telefono</label>
+          <input type="number" class="form-control" id="telefonoCliente" />
+        </div>
+        <div class="md-3">
+          <label for="piñaStatus" class="form-label"
+            >¿Quieres piña en tu pizza?</label
+          >
+          <div id="text" class="form-text">Ejemplo: Si / No</div>
+          <input type="text" class="form-control" id="eleccionPiña" />
+        </div>
+        <div class="md-3">
+          <label for="masaType" class="form-label"
+            >¿Que tipo de pizza te gustaría?</label
+          >
+          <div id="text" class="form-text">
+            Ejemplo: Mexicana / Hawaiana / Pepperonni
+          </div>
+          <input type="text" class="form-control" id="eleccionPizza" />
+        </div>
+        <div class="md-3">
+          <label for="tomateStatus" class="form-label"
+            >Añade un ingrediente extra <b>Costo $10 extra</b></label
+          >
+          <div id="text" class="form-text">
+            Ejemplo: Jalapeños / Champiñones / Extra Queso /
+          </div>
+          <input type="text" class="form-control" id="ingredienteExtra" />
+        </div>
+        <button type="button" class="btn btn-primary" onclick="card()">
+          Confirmar
+        </button>
+      </form>
+    </div>
+    <div class="container">
+      <div class="cardContainer row"></div>
+    </div>
+  </body>
+  <script src="./index.js"></script>
+</html>
