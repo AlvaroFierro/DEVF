@@ -1,5 +1,3 @@
-# These are my files from 2nd module
+# Files for Mod_02
 
-**If you think I can improve with my code send your PR that's gonna make me improve**
-
-Have a nice day
+All the files and excersices for Mod_02.
