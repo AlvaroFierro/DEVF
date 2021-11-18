@@ -5,6 +5,8 @@
 1. [DOM in HTML](#DOM-in-HTML)
 2. [DOM in Javascript](#DOM-in-Javascript)
 3. [Finding HTML Elements by Id](#Finding-HTML-Elements-by-Id)
+4. [Finding HTML Elements by Tag Nanme](#Finding-HTML-Elements-by-Tag-Name)
+5. [Finding HTML Elements by Class Name](#Finding-HTML-Elements-by-Class-Name)
 
 ### DOM in HTML
 
@@ -33,7 +35,7 @@ The HTML DOM is an API for JavaScript:
 
 This example finds the element with the id "nameOfMyId":
 
-```
+```javascript
 var element = document.getElementById("nameOfMyId");
 ```
 
@@ -52,3 +54,8 @@ This example finds all elements with the class "myClass":
 ```javascript
 var x = document.getElementsByClassName("myClass");
 ```
+
+More info [here](https://www.w3schools.com/js/js_htmldom.asp)
+
+[Back to top
+](#contents)
