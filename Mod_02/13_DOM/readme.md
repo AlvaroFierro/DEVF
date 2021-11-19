@@ -5,8 +5,12 @@
 1. [DOM in HTML](#DOM-in-HTML)
 2. [DOM in Javascript](#DOM-in-Javascript)
 3. [Finding HTML Elements by Id](#Finding-HTML-Elements-by-Id)
-4. [Finding HTML Elements by Tag Nanme](#Finding-HTML-Elements-by-Tag-Name)
+4. [Finding HTML Elements by Tag Name](#Finding-HTML-Elements-by-Tag-Name)
 5. [Finding HTML Elements by Class Name](#Finding-HTML-Elements-by-Class-Name)
+6. [Properties](#Properties)
+7. [Finding HTML Elements](#Finding-HTML-Elements)
+8. [Changing HTML Elements](#Changing-HTML-Elements)
+9. [Adding and Deleting Elements](#Adding-and-Deleting-Elements)
 
 ### DOM in HTML
 
@@ -57,5 +61,40 @@ var x = document.getElementsByClassName("myClass");
 
 More info [here](https://www.w3schools.com/js/js_htmldom.asp)
 
-[Back to top
-](#contents)
+[Back to top](#contents)
+
+# Properties
+
+## Finding HTML Elements
+
+| Property                                   | Description                                         |
+| ------------------------------------------ | --------------------------------------------------- |
+| document.getElementById(id)                | Find and returns the element with the specified id. |
+| document.getElementsByTagName(tagName)     | Finds all elements with the specified tag name.     |
+| document.getElementsByClassName(className) | Finds all elements with the specified class name.   |
+
+## Changing HTML Elements
+
+| Property                             | Description                           |
+| ------------------------------------ | ------------------------------------- |
+| element.innerHTML = new html content | Changes the inner HTML of an element. |
+| element.atribute = new value         | Changes the value of an attribute.    |
+| element.style.property = new style   | Changes the value of a CSS property.  |
+
+| Method                                 | Description                                    |
+| -------------------------------------- | ---------------------------------------------- |
+| element.setAttribute(atrribute, value) | Cah ge the attribute value of an HTML element. |
+
+## Adding and Deleting Elements
+
+| Method                                       | Description                       |
+| -------------------------------------------- | --------------------------------- |
+| document.createElement(element)              | Create an HTML element            |
+| element.removeChild(element)                 | Remove an HTML element            |
+| element.appendChild(element)                 | Append an HTML element            |
+| element.replaceChild(newElement, oldElement) | Replace an HTML element           |
+| document.write(html)                         | Write elements HTML into the page |
+
+Additional info [here](https://www.w3schools.com/js/js_htmldom_document.asp)
+
+[Back to top](#contents)
