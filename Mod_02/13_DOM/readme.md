@@ -98,3 +98,4 @@ More info [here](https://www.w3schools.com/js/js_htmldom.asp)
 Additional info [here](https://www.w3schools.com/js/js_htmldom_document.asp)
 
 [Back to properties](#Properties)
+[Back to top](#contents)
