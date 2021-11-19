@@ -2,15 +2,15 @@
 
 ### Contents
 
-1. [DOM in HTML](#DOM-in-HTML)
-2. [DOM in Javascript](#DOM-in-Javascript)
-3. [Finding HTML Elements by Id](#Finding-HTML-Elements-by-Id)
-4. [Finding HTML Elements by Tag Name](#Finding-HTML-Elements-by-Tag-Name)
-5. [Finding HTML Elements by Class Name](#Finding-HTML-Elements-by-Class-Name)
-6. [Properties](#Properties)
-7. [Finding HTML Elements](#Finding-HTML-Elements)
-8. [Changing HTML Elements](#Changing-HTML-Elements)
-9. [Adding and Deleting Elements](#Adding-and-Deleting-Elements)
+- [DOM in HTML](#DOM-in-HTML)
+- [DOM in Javascript](#DOM-in-Javascript)
+- [Finding HTML Elements by Id](#Finding-HTML-Elements-by-Id)
+- [Finding HTML Elements by Tag Name](#Finding-HTML-Elements-by-Tag-Name)
+- [Finding HTML Elements by Class Name](#Finding-HTML-Elements-by-Class-Name)
+- [Properties](#Properties)
+  - [Finding HTML Elements](#Finding-HTML-Elements)
+  - [Changing HTML Elements](#Changing-HTML-Elements)
+  - [Adding and Deleting Elements](#Adding-and-Deleting-Elements)
 
 ### DOM in HTML
 
