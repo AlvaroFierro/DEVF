@@ -12,3 +12,7 @@ document.getElementById("parrafo2").innerHTML =
 
 // Nota:
 // innerHTML es para cambiar el contenido del elemento
+
+// Changing the style of an element with the class container
+document.getElementsByClassName("container")[0].style.backgroundColor = "blue";
+document.getElementsByClassName("container")[0].style.padding = "20px";
