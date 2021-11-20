@@ -8,3 +8,9 @@
   background-color: red;
   margin: 50px;
 }
+
+#click {
+  padding: 25px;
+  margin: 10px;
+  border: 2px solid black;
+}

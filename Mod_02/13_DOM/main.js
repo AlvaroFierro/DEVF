@@ -16,3 +16,17 @@ document.getElementById("parrafo2").innerHTML =
 // Changing the style of an element with the class container
 document.getElementsByClassName("container")[0].style.backgroundColor = "blue";
 document.getElementsByClassName("container")[0].style.padding = "20px";
+
+// Changing p style with id parrafo1
+document.getElementById("parrafo1").style.color = "white";
+
+// Changing p style with id parrafo2
+document.getElementById("parrafo2").style.color = "violet";
+
+// Changing button style
+document.getElementById("click").style.borderRadius = "20px";
+document.getElementById("click").style.marginLeft = "50px";
+
+click.onclick = function () {
+  alert("Clicked!");
+};
