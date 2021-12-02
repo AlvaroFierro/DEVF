@@ -1,0 +1,28 @@
+// Variables
+$font-stack: Helvetica, sans-serif;
+$primary-color: #333;
+$primary-size: 100%;
+
+// Nesting
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+
+  section {
+    display: flex;
+    width: $primary-size;
+
+    h1 {
+      font-size: 15px;
+      padding: 5px;
+
+      span {
+        color: #333;
+
+        label {
+          display: block;
+        }
+      }
+    }
+  }
+}
