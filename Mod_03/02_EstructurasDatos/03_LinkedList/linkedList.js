@@ -61,7 +61,7 @@ class LinkedList {
         // Verifico si next tiene un nodo
         currentNode = currentNode.next; // Sustituyo el valor del nodo que vive en ext a mi nodo actual
       }
-      // cuanto next sea nulo, sale del while y continua con el resto del codigo.
+      // cuanto next sea nulo, sale del whiole y continua con el resto del codigo.
 
       currentNode.next = node;
     }
