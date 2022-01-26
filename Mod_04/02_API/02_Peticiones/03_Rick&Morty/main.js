@@ -10,7 +10,6 @@ const request = require("request");
 
 //     console.log(response.statusCode);
 //     console.log(body);
-//   }
 // );
 
 const getCharacterByName = (name) => {
